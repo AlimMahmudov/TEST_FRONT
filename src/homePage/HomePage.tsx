@@ -46,6 +46,16 @@ const HomePage: React.FC = () => {
           { id: 4, text: "Java", yes: false },
         ],
       },
+      {
+        id: 4,
+        question: "Что означает аббревиатура JS?",
+        otvets: [
+          { id: 1, text: "Medina", yes: true },
+          { id: 2, text: "Alim", yes: false },
+          { id: 3, text: "Asim", yes: false },
+          { id: 4, text: "Mariyam", yes: false },
+        ],
+      },
     ],
     []
   );
