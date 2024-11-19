@@ -19,16 +19,6 @@ const HomePage: React.FC = () => {
     () => [
       {
         id: 1,
-        question: "Что означает аббревиатура HTML?",
-        otvets: [
-          { id: 1, text: "HyperText Markup Language", yes: true },
-          { id: 2, text: "HyperText Markdown Language", yes: false },
-          { id: 3, text: "HighText Markup Language", yes: false },
-          { id: 4, text: "HomeText Markup Language", yes: false },
-        ],
-      },
-      {
-        id: 2,
         question: "Что означает аббревиатура CSS?",
         otvets: [
           { id: 1, text: "Cascading Style Sheets", yes: true },
@@ -37,6 +27,17 @@ const HomePage: React.FC = () => {
           { id: 4, text: "Colorful Style Sheets", yes: false },
         ],
       },
+      {
+        id: 2,
+        question: "Что означает аббревиатура HTML?",
+        otvets: [
+          { id: 1, text: "HyperText Markup Language", yes: true },
+          { id: 2, text: "HyperText Markdown Language", yes: false },
+          { id: 3, text: "HighText Markup Language", yes: false },
+          { id: 4, text: "HomeText Markup Language", yes: false },
+        ],
+      },
+
       {
         id: 3,
         question: "Что означает аббревиатура JS?",
@@ -144,13 +145,6 @@ const HomePage: React.FC = () => {
                   <button
                     key={answer.id}
                     onClick={() => handleAnswerClick(answer)}
-                    // style={{
-                    //   padding: "10px",
-                    //   margin: "5px 0",
-                    //   backgroundColor: "#000",
-                    //   cursor: "pointer",
-                    //   borderRadius: "4px",
-                    // }}
                   >
                     {answer.text}
                   </button>
