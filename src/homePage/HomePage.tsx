@@ -79,6 +79,17 @@ const HomePage: React.FC = () => {
           { id: 4, text: "all", yes: false },
         ],
       },
+      {
+        id: 7,
+        question:
+          "Какой оператор используется для строгого сравнения в JavaScript?",
+        otvets: [
+          { id: 1, text: "===", yes: true },
+          { id: 2, text: "==", yes: false },
+          { id: 3, text: "=", yes: false },
+          { id: 4, text: "!=", yes: false },
+        ],
+      },
     ],
     []
   );
