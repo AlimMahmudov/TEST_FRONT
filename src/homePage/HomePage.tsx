@@ -95,10 +95,10 @@ const HomePage: React.FC = () => {
         question:
           "Какой способ объявления функции в JavaScript является устаревшим?",
         otvets: [
+          { id: 4, text: "var function", yes: true },
           { id: 1, text: "function expression", yes: false },
           { id: 2, text: "arrow function", yes: false },
           { id: 3, text: "function declaration", yes: false },
-          { id: 4, text: "var function", yes: true },
         ],
       },
       {
