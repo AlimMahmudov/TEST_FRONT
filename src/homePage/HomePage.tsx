@@ -50,12 +50,12 @@ const HomePage: React.FC = () => {
       },
       {
         id: 4,
-        question: "Первый Чингизид",
+        question: "Какой тег используется для создания ссылки в HTML?",
         otvets: [
-          { id: 1, text: "Medina", yes: true },
-          { id: 2, text: "Alim", yes: false },
-          { id: 3, text: "Asim", yes: false },
-          { id: 4, text: "Mariyam", yes: false },
+          { id: 1, text: "<a>", yes: true },
+          { id: 2, text: "<link>", yes: false },
+          { id: 3, text: "<href>", yes: false },
+          { id: 4, text: "<url>", yes: false },
         ],
       },
     ],
