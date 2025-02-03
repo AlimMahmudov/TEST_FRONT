@@ -69,6 +69,16 @@ const HomePage: React.FC = () => {
           { id: 4, text: "shift()", yes: false },
         ],
       },
+      {
+        id: 6,
+        question: "Какой селектор CSS выбирает все элементы?",
+        otvets: [
+          { id: 1, text: "*", yes: true },
+          { id: 2, text: "#", yes: false },
+          { id: 3, text: ".", yes: false },
+          { id: 4, text: "all", yes: false },
+        ],
+      },
     ],
     []
   );
