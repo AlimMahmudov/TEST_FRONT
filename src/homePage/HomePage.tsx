@@ -112,6 +112,17 @@ const HomePage: React.FC = () => {
           { id: 4, text: "toObject()", yes: false },
         ],
       },
+      {
+        id: 10,
+        question:
+          "Какой псевдокласс используется для стилизации элементов при наведении?",
+        otvets: [
+          { id: 1, text: ":hover", yes: true },
+          { id: 2, text: ":focus", yes: false },
+          { id: 3, text: ":active", yes: false },
+          { id: 4, text: ":visited", yes: false },
+        ],
+      },
     ],
     []
   );
