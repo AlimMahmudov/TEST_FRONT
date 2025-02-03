@@ -58,6 +58,17 @@ const HomePage: React.FC = () => {
           { id: 4, text: "<url>", yes: false },
         ],
       },
+      {
+        id: 5,
+        question:
+          "Какой метод используется для добавления элемента в конец массива в JavaScript?",
+        otvets: [
+          { id: 1, text: "push()", yes: true },
+          { id: 2, text: "pop()", yes: false },
+          { id: 3, text: "unshift()", yes: false },
+          { id: 4, text: "shift()", yes: false },
+        ],
+      },
     ],
     []
   );
