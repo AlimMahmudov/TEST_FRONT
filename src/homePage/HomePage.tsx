@@ -21,10 +21,10 @@ const HomePage: React.FC = () => {
         id: 1,
         question: "Что означает аббревиатура CSS?",
         otvets: [
-          { id: 1, text: "Cascading Style Sheets", yes: true },
           { id: 2, text: "Computer Style Sheets", yes: false },
           { id: 3, text: "Creative Style Sheets", yes: false },
           { id: 4, text: "Colorful Style Sheets", yes: false },
+          { id: 1, text: "Cascading Style Sheets", yes: true },
         ],
       },
       {
