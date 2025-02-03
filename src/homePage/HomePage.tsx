@@ -101,6 +101,17 @@ const HomePage: React.FC = () => {
           { id: 4, text: "var function", yes: true },
         ],
       },
+      {
+        id: 9,
+        question:
+          "Какой метод используется для преобразования JSON в объект JavaScript?",
+        otvets: [
+          { id: 1, text: "JSON.parse()", yes: true },
+          { id: 2, text: "JSON.stringify()", yes: false },
+          { id: 3, text: "parseJSON()", yes: false },
+          { id: 4, text: "toObject()", yes: false },
+        ],
+      },
     ],
     []
   );
